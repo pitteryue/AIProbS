@@ -7,8 +7,8 @@ As for data sets, the three files that the **30 MovieLens-1M Realizations** at t
 
 In order to run the source codes based on either of them, one is expected to follow the three steps completing some modifications based on the source codes:
 
-(1) In the first place, <code><i>default = 'ml-100k'</i></code> of <code><i>parser.add_argument()</i></code> in the file **parameters_management.py** should be specified by the name of currently used data set, including 'ml-100k', 'ml-1m' and 'lastfm'.
+(1) In the first place, <code><i>default = 'ml-100k'</i></code> of <code><i>parser.add_argument()</i></code> in the file **parameters_management.py** should be specified by the name of a currently used data set, including 'ml-100k', 'ml-1m' and 'lastfm'.
 
-(2) Next, <code><i>this_data_name = 'ml-100k'</i></code> of <code><i>if \__name__=='\__main\__':</i></code> in the file **main.py** should be specified by the name of the currently used data set, as above.
+(2) Next, <code><i>this_data_name = 'ml-100k'</i></code> of <code><i>if \__name__=='\__main\__':</i></code> in the file **main.py** should be specified by the name of a currently used data set, as above.
 
 (3) Finally, the input file address can be modified in <code><i>dataset = "ml-100k/ml-100k "</i></code> of <code><i>if \__name\__=='\__main\__':</i></code> in the file **main.py**, and the output file address can be modified in <code><i> default = "results_ml-100k.csv"</i></code> of <code><i> parser.add_argument()</i></code> in the file **parameters_management.py**.
