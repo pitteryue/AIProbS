@@ -5,7 +5,7 @@ In making great strides to the machine learning-based era in artificial intellig
 
 As for data sets, the three files that the **30 MovieLens-1M Realizations** at the root directory and the **30 MovieLens-100K Realizations** and **30 LastFM Realizations** both at the directory <i>''/Data''</i> involve all the items used in this article's experiments.
 
-In order to run the codes based on either of them, one is expected to follow the three steps complete some modifications based on the source codes:
+In order to run the codes based on either of them, one is expected to follow the three steps completing some modifications based on the source codes:
 
 (1) In the first place, <code><i>default = 'ml-100k'</i></code> of <code><i>parser.add_argument()</i></code> in the file **parameters_management.py** should be specified by the name of currently used data set, including 'ml-100k', 'ml-1m' and 'lastfm'.
 
