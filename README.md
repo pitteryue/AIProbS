@@ -3,7 +3,7 @@ In making great strides to the machine learning-based era in artificial intellig
 
 **How to use the Python codes**
 
-As for data sets, the three files that the **30 MovieLens-1M Realizations** in the root directory and the **30 MovieLens-100K Realizations** and **30 LastFM Realizations** both in the directory <i>''/Data''</i> involve all the items used in this article's experiments.
+As for data sets, the three files that the **30 MovieLens-1M Realizations** at the root directory and the **30 MovieLens-100K Realizations** and **30 LastFM Realizations** both at the directory <i>''/Data''</i> involve all the items used in this article's experiments.
 
 In order to run the codes based on either of them, one is expected to follow the three steps complete some modifications based on the source codes:
 
