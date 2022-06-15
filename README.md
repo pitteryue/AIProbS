@@ -12,3 +12,5 @@ In order to run the source codes based on either of them, one is expected to fol
 (2) Next, <code><i>this_data_name = 'ml-100k'</i></code> of <code><i>if \__name__=='\__main\__':</i></code> in the file **main.py** should be specified by the name of a currently used data set, as above.
 
 (3) Finally, the input file address can be modified in <code><i>dataset = "ml-100k/ml-100k "</i></code> of <code><i>if \__name\__=='\__main\__':</i></code> in the file **main.py**, and the output file address can be modified in <code><i> default = "results_ml-100k.csv"</i></code> of <code><i> parser.add_argument()</i></code> in the file **parameters_management.py**.
+
+One can access the codes of DHC-E algorithm used in this project from https://github.com/HW-HaoWang/DHC-E.
